@@ -49,26 +49,32 @@ upstream	https://github.com/caterinasworld/frontend-homework.git (fetch)
 upstream	https://github.com/caterinasworld/frontend-homework.git (push)
 ```
 
-3. Navigate to your account on GitHub and create a **private repo**.
+3. Navigate to your account on GitHub and create a **private repo**, i.e.private-student-repo.
 
-4. Add collaborator(s).
+4. Add collaborator(s). Go to 'Settings' --> 'Manage Access' --> click the 'Invite a collaborator' button.
 
 5. Add the GitHub repo that you created as a remote.
 
 ```console
-$ git remote add origin https://github.com/student/private-repo-hw.git
+$ git remote add origin https://github.com/student/private-student-repo.git
 
 $ git remote -v
-origin	  https://github.com/student/private-repo-hw.git (fetch)
-origin	  https://github.com/student/private-repo-hw.git  (push)
+origin	  https://github.com/student/private-student-repo.git (fetch)
+origin	  https://github.com/student/private-student-repo.git  (push)
 upstream	hhttps://github.com/caterinasworld/frontend-homework.git (fetch)
 upstream	https://github.com/caterinasworld/frontend-homework.git (push)
 ```
 
-6. Push the files you cloned into your newly created private remote.
+6. Update the branch name to 'main'.
 
 ```console
-$ git push -u origin master
+$ git branch -M main
+```
+
+7. Push the files you cloned into your newly created private remote.
+
+```console
+$ git push -u origin main
 Enumerating objects: 8, done.
 Counting objects: 100% (8/8), done.
 Delta compression using up to 4 threads
@@ -76,11 +82,11 @@ Compressing objects: 100% (6/6), done.
 Writing objects: 100% (8/8), 2.67 KiB | 1.33 MiB/s, done.
 Total 8 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), done.
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
-7. Once you have specified the upstream, you can push changes to the origin remote.
+8. Once 'main' is set up to track the remote origin, you can push changes with the following command.
 
 ```console
 $ git push
