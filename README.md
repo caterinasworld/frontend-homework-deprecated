@@ -15,7 +15,6 @@
 - CSS Grid Layout
 - Calendar
 - Bootstrap Grid
-- Bootstrap Form
 
 ### Assignment 3 - JavaScript
 
