@@ -19,10 +19,9 @@
 ### Assignment 3 - JavaScript
 
 - Form Input
+- URL Parsing
 - Count
-- RegEx
 - Palindrome
-- Background
-- APIs and Fetch
+- Background Color Change
 
 Check D2L or Drive for more details on each assignment
