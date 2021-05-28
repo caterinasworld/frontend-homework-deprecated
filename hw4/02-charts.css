@@ -18,13 +18,13 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  main {
+  .wrapper {
     width: 80vw;
   }
 }
 
 @media (max-width: 414px) {
-  main {
+  .wrapper {
     width: 96vw;
   }
 }
