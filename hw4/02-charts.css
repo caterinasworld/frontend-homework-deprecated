@@ -1,0 +1,30 @@
+body {
+  background-color: var(--cyan);
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+#donut-chart {
+  padding: 2rem;
+  border-radius: 0.8rem;
+  background-color: var(--white);
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 414px) {
+  main {
+    width: 96vw;
+  }
+}

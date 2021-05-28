@@ -1,0 +1,13 @@
+body {
+  background-color: var(--cyan);
+}
+
+h1 {
+  text-align: center;
+}
+
+.characters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
