@@ -24,4 +24,10 @@
 - Palindrome
 - Background Color Change
 
+### Assignment 4 - JavaScript and React
+
+- Characters
+- Charts
+- React
+
 Check D2L or Drive for more details on each assignment
