@@ -13,5 +13,5 @@
 /* Code for exercise 06-bootstrap-grid */
 
 .row:nth-child(1) {
-  background-color: purple;
+  background-color: var(--purple);
 }
