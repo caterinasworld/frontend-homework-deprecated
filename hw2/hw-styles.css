@@ -1,3 +1,7 @@
+.h1 {
+  text-align: center;
+}
+
 /* Code for exercise 02-navbar */
 
 /* Code for exercise 03-flex */
@@ -7,3 +11,7 @@
 /* Code for exercise 05-calendar */
 
 /* Code for exercise 06-bootstrap-grid */
+
+.row:nth-child(1) {
+  background-color: purple;
+}
